@@ -30,7 +30,7 @@ p {
   margin: 0 1.5rem;
 }
 
-ul {
+ul.products {
   display: grid;
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+ul.products > li {
   border: 3px solid #987ffa;
   border-radius: 8px;
   display: flex;
@@ -51,6 +51,8 @@ li {
 
 img {
   margin: .25rem 1.5rem;
+  padding: 0;
+  max-width: 15em;
 }
 
 span {
@@ -58,8 +60,15 @@ span {
   text-decoration: none;
 }
 
-ul .class {
+ul.tools {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+span {
+  font-family: "Oswald", sans-serif;
+  background-color: #6f00e7;
 }
